@@ -75,8 +75,6 @@ def worker():
 
 def write(valid,file_out):
 	with open(file_out, 'a') as file:
-		print 222222222
-		print valid,22
 		file.write('{0}'.format(valid+'\n'))
 
 def boss():
