@@ -10,3 +10,9 @@ Example:
     
 If no parameters given default values will be used (see code).
 See sample Mail:Pass list for format.
+
+
+Installation of dependencies:
+pip install gevent
+pip install mechanize
+pip install fake-useragent
