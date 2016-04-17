@@ -16,3 +16,5 @@ Installation of dependencies:
 pip install gevent
 pip install mechanize
 pip install fake-useragent
+
+In case you run into problems with using Gevent there is also a version using the standard Threading Lib.
