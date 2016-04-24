@@ -10,7 +10,8 @@ import mechanize
 import cookielib
 import random
 from fake_useragent import UserAgent #pip install fake-useragent
-
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 asci = '''
 \    / _ |_   /~_|\/|\/  /~`|_  _  _|  _  _
  \/\/ (/_|_)  \_/|  |/\  \_,| |(/_(_|<(/_| 
@@ -21,7 +22,7 @@ print asci
 if sys.argv[1: ]:
     file_in = sys.argv[1]
 else :
-    file_in = "cred.txt"
+    file_in = "email_pass.txt"
 
 if sys.argv[2: ]:
     file_out = sys.argv[2]
