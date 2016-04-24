@@ -2,9 +2,9 @@
 Check Mail:Pass lists against validity at the Web.de/Gmx.net Web login. Using Gevent with concurrency.
 
 Usage:
-"python WEBgmxCh4cker.py mail_pass.txt valid_output.txt Threads"
-Example:
-"python WEBgmxCh4cker.py mail_pass.txt valid_output.txt 128"
+<code>python WEBgmxCh4cker.py mail_pass.txt valid_output.txt Threads</code>
+
+
     
     
     
